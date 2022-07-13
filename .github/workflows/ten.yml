@@ -104,6 +104,7 @@ jobs:
           browser: chrome
           record: true
           parallel: true
+          tag: v10,optimized
           group: "UI - Chrome"
           spec: cypress/tests/ui/*
           config-file: cypress.config.js
@@ -151,6 +152,7 @@ jobs:
           browser: chrome
           record: true
           parallel: true
+          tag: v10,optimized
           group: "UI - Chrome - Mobile"
           spec: cypress/tests/ui/*
           config-file: cypress.config.js
@@ -196,6 +198,7 @@ jobs:
           browser: firefox
           record: true
           parallel: true
+          tag: v10,optimized
           group: "UI - Firefox"
           spec: cypress/tests/ui/*
           config-file: cypress.config.js
@@ -242,6 +245,7 @@ jobs:
           browser: firefox
           record: true
           parallel: true
+          tag: v10,optimized
           group: "UI - Firefox - Mobile"
           spec: cypress/tests/ui/*
           config-file: cypress.config.js
@@ -283,6 +287,7 @@ jobs:
           wait-on-timeout: 120
           record: true
           parallel: true
+          tag: v10,optimized
           group: "UI - Electron - Windows"
           spec: cypress/tests/ui/*
           config-file: cypress.config.js
